@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Курс JavaScript</title>
+	<script>
+		// ...
+		let user = {
+		surname: 'Карамзин',
+		name: 'Виктор',
+		patronymic: 'Геннадьевич',
+		ocupation: 'Преподаватель специальных дисциплин.',
+		dergee: 'Высшее.',
+		category: 'Первая.',
+		education: 'Московский государственный институт электронной техники <br> (технический университет).',
+		discipline: 'Информатика.',
+		note:  'Нет примечаний.',
+		}
+	</script>
+</head>
+
+<body>
+	
+	<header>
+		<h1 align = "center">Введение в JavaScript</h1>
+	</header>	
+	
+	<div class="content" style=" font-size: 18px;">
+		<script>
+		// ...
+		document.write('<h2>', user.surname, ' ', user.name, ' ', user.patronymic, '</h2>','<br>');
+		document.write('<i>','Должность: ','</i>' + user.ocupation, '<br>');
+		document.write('<i>','Уровень образования: ','</i>' + user.dergee, '<br>');
+		document.write('<i>','Категория: ', '</i>'  + user.category, '<br>');
+		document.write('<i>','Образование: ','</i>' + user.education, '<br>');
+		document.write('<i>','Дисциплина: ', '</i>' + user.discipline, '<br>');
+		document.write('<i>','Примечание: ', '</i>' + user.note);
+		</script>
+	</div>
+	
+	<footer align = "center">
+		<h3>Добро пожаловать на pechora_PROger</h3>
+		<a href="https://vk.com/pechora_proger" target="__blank">pechora_PROger</a>
+	</footer>
+
+</body>
+</html>

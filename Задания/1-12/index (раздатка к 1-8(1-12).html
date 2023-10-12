@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Курс JavaScript</title>
+	<script>
+		// ...
+		let discipline= ["Информатика","Основы программирования", "Инженерная графика"]
+		let user ={
+		surname: '<b>'+'Карамзин'+'</b>',
+		name: '<b>'+'Виктор'+'</b>',
+		patronymic: '<b>'+'Геннадьевич'+'</b>',
+		ocupation: '<br>'+'<i>'+'Должность: '+'</i>'+'Преподаватель специальных дисциплин.',
+		dergee: '<br>'+'<i>Уровень образования: </i>'+'Высшее.',
+		category: '<br>'+'<i>Категория: </i>'+'Первая.',
+		education: '<br>'+'<i>Образование: </i>'+'Московский государственный институт электронной техники <br> (технический университет).',
+		discipline,
+		note: '<br>'+'<i>Примечания: </i>',
+		};
+		let result=`${user.surname}
+		${user.name}
+		${user.patronymic}
+		${user.ocupation}
+		${user.dergee}
+		${user.category}
+		${user.education}
+		<br> <i>Дисциплина:</i>
+		<ul> <li> ${user.discipline[0]}</li>
+		<li> ${user.discipline[1]}</li>
+		<li> ${user.discipline[2]}</li>	
+		${user.note}
+		`;
+	</script>
+</head>
+
+<body>
+	
+	<header>
+		<h1 align = "center">Введение в JavaScript</h1>
+	</header>	
+	
+	<div class="content" style=" font-size: 18px;">
+		<script>
+		// ...
+		document.write(result);
+
+		</script>
+	</div>
+	
+	<footer align = "center">
+		<h3>Добро пожаловать на pechora_PROger</h3>
+		<a href="https://vk.com/pechora_proger" target="__blank">pechora_PROger</a>
+	</footer>
+
+</body>
+</html>
